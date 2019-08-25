@@ -1,0 +1,13 @@
+{
+	"name": "CosmosDbMongoDbApi1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "CosmosDbMongoDbApi",
+		"typeProperties": {
+			"connectionString": "mongodb://basesunarp:@basesunarp.documents.azure.com:10255/?ssl=true;replicaSet=globaldb",
+			"database": "basesunarp",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkJBU0VTVU5BUlBERl80YjY2NzViNi1mZGQ0LTRiODUtYThhYy05YzdhN2M3NzkwNDYiDQp9"
+		}
+	}
+}
