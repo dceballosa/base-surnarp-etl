@@ -123,6 +123,150 @@
 								"sink": {
 									"path": "Sexo"
 								}
+							},
+							{
+								"source": {
+									"name": "NombreEstadoCivil",
+									"type": "String"
+								},
+								"sink": {
+									"path": "NombreEstadoCivil"
+								}
+							},
+							{
+								"source": {
+									"name": "FechaNacimiento",
+									"type": "String"
+								},
+								"sink": {
+									"path": "FechaNacimiento"
+								}
+							},
+							{
+								"source": {
+									"name": "MesaSufragio",
+									"type": "String"
+								},
+								"sink": {
+									"path": "MesaSufragio"
+								}
+							},
+							{
+								"source": {
+									"name": "CondicionLaboral",
+									"type": "String"
+								},
+								"sink": {
+									"path": "CondicionLaboral"
+								}
+							},
+							{
+								"source": {
+									"name": "FlagCCC",
+									"type": "String"
+								},
+								"sink": {
+									"path": "FlagCCC"
+								}
+							},
+							{
+								"source": {
+									"name": "FlagTCA",
+									"type": "String"
+								},
+								"sink": {
+									"path": "FlagTCA"
+								}
+							},
+							{
+								"source": {
+									"name": "FlagFallecido",
+									"type": "String"
+								},
+								"sink": {
+									"path": "FlagFallecido"
+								}
+							},
+							{
+								"source": {
+									"name": "FlagVehicular",
+									"type": "String"
+								},
+								"sink": {
+									"path": "FlagVehicular"
+								}
+							},
+							{
+								"source": {
+									"name": "FlagHijos",
+									"type": "String"
+								},
+								"sink": {
+									"path": "FlagHijos"
+								}
+							},
+							{
+								"source": {
+									"name": "NumeroHijos",
+									"type": "String"
+								},
+								"sink": {
+									"path": "NumeroHijos"
+								}
+							},
+							{
+								"source": {
+									"name": "UbigeoReniec",
+									"type": "String"
+								},
+								"sink": {
+									"path": "UbigeoReniec"
+								}
+							},
+							{
+								"source": {
+									"name": "DepartamentoReniec",
+									"type": "String"
+								},
+								"sink": {
+									"path": "DepartamentoReniec"
+								}
+							},
+							{
+								"source": {
+									"name": "ProvinciaReniec",
+									"type": "String"
+								},
+								"sink": {
+									"path": "ProvinciaReniec"
+								}
+							},
+							{
+								"source": {
+									"name": "DistritoReniec",
+									"type": "String"
+								},
+								"sink": {
+									"path": "DistritoReniec"
+								}
+							},
+							{
+								"source": {
+									"name": "UbigeoInei",
+									"type": "String"
+								},
+								"sink": {
+									"path": "UbigeoInei"
+								}
+							},
+							{
+								"source": {
+									"name": "GradoInstruccion",
+									"type": "String"
+								},
+								"sink": {
+									"path": "GradoInstruccion"
+								}
 							}
 						]
 					}
