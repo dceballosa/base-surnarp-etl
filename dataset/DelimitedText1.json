@@ -20,11 +20,107 @@
 		},
 		"schema": [
 			{
-				"name": "Nompre",
+				"name": "Llave",
 				"type": "String"
 			},
 			{
-				"name": "Apellido",
+				"name": "TipoDocumento",
+				"type": "String"
+			},
+			{
+				"name": "NumeroDocumento",
+				"type": "String"
+			},
+			{
+				"name": "ApellidosCliente",
+				"type": "String"
+			},
+			{
+				"name": "ApePaterno",
+				"type": "String"
+			},
+			{
+				"name": "ApeMaterno",
+				"type": "String"
+			},
+			{
+				"name": "NombresCliente",
+				"type": "String"
+			},
+			{
+				"name": "PrimerNombre",
+				"type": "String"
+			},
+			{
+				"name": "SegundoNombre",
+				"type": "String"
+			},
+			{
+				"name": "Sexo",
+				"type": "String"
+			},
+			{
+				"name": "NombreEstadoCivil",
+				"type": "String"
+			},
+			{
+				"name": "FechaNacimiento",
+				"type": "String"
+			},
+			{
+				"name": "MesaSufragio",
+				"type": "String"
+			},
+			{
+				"name": "CondicionLaboral",
+				"type": "String"
+			},
+			{
+				"name": "FlagCCC",
+				"type": "String"
+			},
+			{
+				"name": "FlagTCA",
+				"type": "String"
+			},
+			{
+				"name": "FlagFallecido",
+				"type": "String"
+			},
+			{
+				"name": "FlagVehicular",
+				"type": "String"
+			},
+			{
+				"name": "FlagHijos",
+				"type": "String"
+			},
+			{
+				"name": "NumeroHijos",
+				"type": "String"
+			},
+			{
+				"name": "UbigeoReniec",
+				"type": "String"
+			},
+			{
+				"name": "DepartamentoReniec",
+				"type": "String"
+			},
+			{
+				"name": "ProvinciaReniec",
+				"type": "String"
+			},
+			{
+				"name": "DistritoReniec",
+				"type": "String"
+			},
+			{
+				"name": "UbigeoInei",
+				"type": "String"
+			},
+			{
+				"name": "GradoInstruccion",
 				"type": "String"
 			}
 		]
