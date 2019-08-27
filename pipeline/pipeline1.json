@@ -30,7 +30,102 @@
 						"writeBatchTimeout": "00:30:00",
 						"writeBehavior": "insert"
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "Llave",
+									"type": "String"
+								},
+								"sink": {
+									"path": "Llave"
+								}
+							},
+							{
+								"source": {
+									"name": "TipoDocumento",
+									"type": "String"
+								},
+								"sink": {
+									"path": "TipoDocumento"
+								}
+							},
+							{
+								"source": {
+									"name": "NumeroDocumento",
+									"type": "String"
+								},
+								"sink": {
+									"path": "NumeroDocumento"
+								}
+							},
+							{
+								"source": {
+									"name": "ApellidosCliente",
+									"type": "String"
+								},
+								"sink": {
+									"path": "ApellidosCliente"
+								}
+							},
+							{
+								"source": {
+									"name": "ApePaterno",
+									"type": "String"
+								},
+								"sink": {
+									"path": "ApePaterno"
+								}
+							},
+							{
+								"source": {
+									"name": "ApeMaterno",
+									"type": "String"
+								},
+								"sink": {
+									"path": "ApeMaterno"
+								}
+							},
+							{
+								"source": {
+									"name": "NombresCliente",
+									"type": "String"
+								},
+								"sink": {
+									"path": "NombresCliente"
+								}
+							},
+							{
+								"source": {
+									"name": "PrimerNombre",
+									"type": "String"
+								},
+								"sink": {
+									"path": "PrimerNombre"
+								}
+							},
+							{
+								"source": {
+									"name": "SegundoNombre",
+									"type": "String"
+								},
+								"sink": {
+									"path": "SegundoNombre"
+								}
+							},
+							{
+								"source": {
+									"name": "Sexo",
+									"type": "String"
+								},
+								"sink": {
+									"path": "Sexo"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
